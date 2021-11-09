@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-icons a {
+  padding: 2px;
+}
+.line {
+  height: 1px;
+  width: 100%;
+  background-color: #dadada;
+}
+.header-icons a:hover .cls-1 {
+  fill: #00bbf5 !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    flex-direction: column;
+  }
+  .header-icons {
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,17 @@
+.contact-input {
+  width: 60% !important;
+}
+textarea {
+  width: 90% !important;
+}
+span {
+  text-shadow: 1px 0 0 var(--pColor);
+}
+.mail-clr {
+  color: var(--green) !important;
+}
+table th {
+  font-weight: normal !important;
+  color: var(--pColor) !important;
+  font-size: 14px;
+}

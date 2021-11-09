@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600&display=swap');
+:root {
+  --green: #2dcc70;
+  --grey: #fefefe;
+  --silver: #737373;
+  --pColor: #8a8888;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fefefe;
+  font-family: 'Maven Pro', sans-serif;
+  min-height: 100vh !important;
+}
+p {
+  font-size: 14px;
+  font-weight: 100;
+  color: var(--pColor);
+}
+h2 {
+  font-size: 24px;
+  color: var(--silver);
+  font-weight: 600;
+}
+h3 {
+  font-size: 18px;
+  color: var(--silver);
+}
+.clr-white {
+  color: #ffff !important;
+}
+.py-5 {
+  padding-top: 2.5rem !important;
+  padding-bottom: 2.5rem !important;
+}
+
+/* icons */
+.cls-1 {
+  fill: var(--silver);
+  fill-rule: evenodd;
+}
+.header-icon {
+  fill: #dadada !important;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.page-header {
+  background-color: var(--green);
+}
+.page-header h1 {
+  padding: 20px 0px;
+  color: #fff;
+  text-transform: uppercase;
+}

@@ -1,0 +1,36 @@
+.hero {
+  background-image: url('../../assets/img/slider-background.jpg');
+  min-height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.hero-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  width: 100%;
+}
+.hero-img img {
+  margin-top: 50px;
+  max-width: 100%;
+}
+.hero-text {
+  text-transform: uppercase;
+}
+.btn-success {
+  background-color: var(--green);
+}
+
+@media only screen and (max-width: 600px) {
+  .hero-img {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .hero-img {
+    height: 50vh;
+  }
+}

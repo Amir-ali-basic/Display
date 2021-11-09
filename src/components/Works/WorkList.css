@@ -1,0 +1,115 @@
+.works {
+  min-height: 550px;
+}
+
+.works-grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 3fr;
+  gap: 1rem 1rem;
+}
+.works-grid .single-work {
+  width: 100%;
+}
+.works-grid .single-work img {
+  width: 100%;
+  height: 100%;
+}
+@media (min-width: 992px) {
+  .works-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1170px) {
+  .works-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.btn-filter {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 18px;
+  padding-left: 0px !important;
+  /*ispravi ovo kasnije*/
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  text-transform: uppercase;
+}
+.btn-filter:hover {
+  color: var(--green);
+}
+
+.btn-filter:after {
+  content: ' /';
+}
+.btn-filter:last-child:after {
+  content: '' !important;
+}
+.work-list {
+  display: grid;
+  row-gap: 3rem;
+}
+.single-work-list {
+  display: flex;
+  margin: 30px;
+}
+.single-work-list img {
+  margin: auto;
+}
+.categories {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sort-icon path {
+  width: 15px;
+  height: 15px;
+  color: var(--silver);
+}
+.active-sort-icon path {
+  color: var(--green) !important;
+}
+.single-work {
+  position: relative;
+}
+.single-work:hover .article-overlay {
+  opacity: 1;
+  cursor: pointer;
+}
+.article-overlay {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(254, 254, 254, 0.5);
+  opacity: 0;
+  transition: 0.5s;
+}
+.overlay-image-circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: var(--green);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.article-overlay img {
+  width: 40px !important;
+  margin: auto;
+  color: white;
+}
+@media only screen and (max-width: 600px) {
+  .btn-filter {
+    padding: 0px 5px;
+  }
+}
