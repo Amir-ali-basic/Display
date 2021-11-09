@@ -32,6 +32,13 @@ const AboutSection = () => {
                 doloremque consequatur dicta sit atque recusandae amet illo nam
                 libero, harum commodi. Tempore dolorum qui rem a laudantium ea
               </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+                et recusandae, quos possimus, ipsam sequi eaque, aliquam soluta
+                id iste quod! Neque, iste dolorum. Quo, tenetur vel autem
+                repellendus recusandae fugiat dolores rerum error quisquam
+                distinctio blanditiis voluptatum a quia.
+              </p>
             </div>
           </div>
         </div>

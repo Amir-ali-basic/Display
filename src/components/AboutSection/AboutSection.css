@@ -2,3 +2,11 @@
   background-color: var(--green);
   height: 10vh;
 }
+.about-text p {
+  margin-top: 1rem;
+}
+@media only screen and (max-width: 600px) {
+  .about-text p {
+    padding-top: 1rem;
+  }
+}
